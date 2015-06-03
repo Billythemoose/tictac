@@ -1,10 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="TicTacMainPage.css" type="text/css" />
+    <link rel="stylesheet" href="TicTacMainPage.css" type="text/css" media="only screen and (max-width: 480px)" />
+    <link rel="stylesheet" href="TicTacMainDesktop.css" type="text/css" media="screen and (min-width: 481px)" />
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="explorer.css" media="all" />
+    <![endif]-->
+
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+
     <title>Tic Tac Toe Basic</title>
 </head>
 <body>
     <div id="container">Content goes here.</div>
+    <div class="horizontal lines"> </div>
+    <div class="horizontal lines"> </div>
+    <div class="vertical lines"> </div>
+    <div class="vertical lines"> </div>
+
+    <div id="random square"> </div>
+
+    <div id="content">
+        <h2>About</h2>
+        <p>John Snow doesnt know anything. Nothing at all. he may be a web developer
+            he's the least knowledgable person I've had the pleasure of meeting in recent
+            memory. He means well but is insolence is astounding. Noob.
+        </p>
+    </div>
 </body>
 </html>
